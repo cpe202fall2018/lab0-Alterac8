@@ -12,6 +12,5 @@ class Test_planets(unittest.TestCase):
         #print(student_output.getvalue().strip())
         self.assertEqual(expected_out, student_output.getvalue().strip())
 
-
 if __name__ == "__main__":
         unittest.main()
